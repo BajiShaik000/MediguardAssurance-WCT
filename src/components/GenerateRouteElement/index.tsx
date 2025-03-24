@@ -28,6 +28,7 @@ import {
   Architecture,
 } from "pages";
 import { CustomerReview } from "pages/CustomerReview";
+import { Dashboards } from "pages/Dashboard";
 import { IncomingCall } from "pages/IncomingCall";
 import { NewShoppingCopilotForAIDesignWins } from "pages/NewShoppingCopilotForAIDesignWins";
 import { NewWebsite } from "pages/NewWebsite";
@@ -35,6 +36,7 @@ import { NewWebsiteShoppingCopilot } from "pages/NewWebsiteShoppingCopilot";
 import { OldWebsite } from "pages/OldWebsite";
 //import { NewReimagined } from "pages/NewReimagined";
 import { PredictChurn } from "pages/PredictChurn";
+import { ProblemStatement } from "pages/ProblemStatement";
 import { ReImaginedNewWebsite } from "pages/ReImaginedNewWebsite";
 import { ReImaginedNewWebsiteScope } from "pages/ReImaginedNewWebsiteScope";
 import { SetupWizardPersona } from "pages/SetupWizardPersona";
@@ -295,6 +297,10 @@ export const GenerateRouteElement: FC<Props> = ({ data }) => {
       return <ThankYou />;
     case "architecture":
       return <Architecture />;
+    case "dashboard":
+      return <Dashboards />;
+    case "problem statement":
+      return <ProblemStatement />;
     case "customer review":
       return (
         <CustomerReview liveHosted={data?.componentParameters?.liveHosted} />

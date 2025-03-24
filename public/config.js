@@ -55,7 +55,7 @@ window.config = {
       arrowIcon: null,
       order: 1,
       componentId: 3,
-      componentName: "image",
+      componentName: "problem statement",
       componentParameters: [
         {
           id: 1,
@@ -149,7 +149,7 @@ window.config = {
       arrowIcon: null,
       order: 1,
       componentId: 3,
-      componentName: "image",
+      componentName: "dashboard",
       componentParameters: [
         {
           id: 1,

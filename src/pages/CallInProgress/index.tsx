@@ -221,7 +221,7 @@ export const CallInProgress: FC = () => {
           >
             <div className={styles.toggleBtnContainer}>
               <KnowYourPolicy />
-              {isLoggedIn && <DragDropFile />}
+              {/* {isLoggedIn && <DragDropFile />} */}
             </div>
             <div
               className={styles.clearChat}

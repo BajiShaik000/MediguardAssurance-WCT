@@ -9,13 +9,14 @@ import {
 } from "@progress/kendo-react-conversational-ui";
 import { FC, useEffect, useMemo, useState } from "react";
 import styles from "./styles.module.scss";
-import Thankyou from "./Thankyou.png"
+import KPI from './chatbot_kpi.png'
 
-export const ThankYou: FC = () => {
+export const ProblemStatement: FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.subContainer}>
-        <img src={Thankyou} alt="thank-you" />
+        <h4>Building a chatbot to help insurance members quickly get answers about their healthcare claims anytime, improving member experience and reducing wait times.</h4>
+        <img src={KPI} alt="architecture" />
       </div>
     </div>
   );
