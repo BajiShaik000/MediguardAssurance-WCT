@@ -16,7 +16,7 @@ export const DemoVideo: FC = () => {
       <div className={styles.subContainer}>
         <video width="90%" height="90%" controls>
           <source
-            src="/Data_Engineering_New.mp4"
+            src={`${process.env.PUBLIC_URL}/Data_Engineering_New.mp4`}
             type="video/mp4"
           />
           Your browser does not support the video tag.
