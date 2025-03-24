@@ -79,14 +79,14 @@ window.config = {
       arrowIcon: null,
       order: 1,
       componentId: 3,
-      componentName: "image",
+      componentName: "architecture",
       componentParameters: [
         {
           id: 1,
           key: "url",
           value:
             // "https://dreamdemoassets.blob.core.windows.net/nrf/telco_orgchart_updatedV2.png"
-            "",
+            "https://funchlsbotv1.blob.core.windows.net/web-app-resources/chatbot_architecture.png",
         },
       ],
       externalArrows: [],
@@ -138,6 +138,30 @@ window.config = {
       externalArrows: [],
       personaId: 1,
       personaName: "Anna",
+      personaImageUrl:
+        "https://openaidemoassets.blob.core.windows.net/personas/April.png",
+    },
+    {
+      id: 3,
+      url: "/dashboard-after",
+      name: "Dashboard After",
+      icon: "https://nrfcdn.azureedge.net/left-nav-icons/icon1_3.png",
+      arrowIcon: null,
+      order: 1,
+      componentId: 3,
+      componentName: "image",
+      componentParameters: [
+        {
+          id: 1,
+          key: "url",
+          value:
+            // "https://dreamdemoassets.blob.core.windows.net/nrf/telco_orgchart_updatedV2.png"
+            "https://funchlsbotv1.blob.core.windows.net/web-app-resources/chatbot_architecture.png",
+        },
+      ],
+      externalArrows: [],
+      personaId: 1,
+      personaName: "April",
       personaImageUrl:
         "https://openaidemoassets.blob.core.windows.net/personas/April.png",
     },
